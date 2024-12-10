@@ -11,7 +11,7 @@ namespace AdventOfCode2024
     {
         public int PartOne()
         {
-            var input = Helper.ReadInput()
+            var input = Helper.ReadInputByLine()
             .Select(line => Regex.Split(line, @"\s+").Select(int.Parse).ToList())
             .ToList();
 
@@ -26,7 +26,7 @@ namespace AdventOfCode2024
 
         public int PartTwo()
         {
-            var input = Helper.ReadInput()
+            var input = Helper.ReadInputByLine()
             .Select(line => Regex.Split(line, @"\s+").Select(int.Parse).ToList())
             .ToList();
 

@@ -9,9 +9,13 @@ namespace AdventOfCode2024
     public static class Helper
     {
 
-        public static string[] ReadInput() 
+        public static string[] ReadInputByLine() 
         {
             return File.ReadAllLines("./input.txt"); 
+        }
+        public static string ReadInputAllText()
+        {
+            return File.ReadAllText("./input.txt");
         }
     }
 }
