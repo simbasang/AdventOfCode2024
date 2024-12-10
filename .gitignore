@@ -1,0 +1,52 @@
+# Build Folders
+bin/
+obj/
+
+# User-Specific Files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Rider / JetBrains Specific
+.idea/
+*.sln.iml
+
+# Visual Studio Specific
+.vs/
+
+# Resharper Specific
+_ReSharper*/
+*.DotSettings.user
+
+# Generated Files
+*.dll
+*.exe
+*.log
+*.pdb
+*.cache
+*.mdb
+*.ide
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Hidden folder for local tools
+.localtoolss/
